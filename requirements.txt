@@ -1,0 +1,11 @@
+streamlit
+websockets
+python-dotenv
+pydantic
+pydantic-settings
+langchain
+langgraph
+langchain-google-genai
+langchain-community
+tavily-python
+google-search-results
