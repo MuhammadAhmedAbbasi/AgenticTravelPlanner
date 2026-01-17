@@ -1,0 +1,34 @@
+# .env file - Copy and fill with your actual values
+# NEVER commit this file to version control!
+
+# ============ API Keys ============
+GOOGLE_PLACES_KEY=your_google_places_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
+TAVILY_API_KEY=your_tavily_api_key_here
+SERPAPI_KEY=your_serpapi_key_here
+
+# ============ Model Configuration ============
+FLASH_MODEL=gemini-2.5-flash
+PRO_MODEL=gemini-3-pro-preview
+REQUEST_TIMEOUT=120
+MAX_RETRIES=5
+TEMPERATURE=0.0
+
+# ============ Database ============
+DATABASE_URL=sqlite:///travel_planner.db
+
+# ============ Cache ============
+CACHE_TTL_HOURS=24
+ENABLE_CACHE=true
+
+# ============ Logging ============
+LOG_LEVEL=INFO
+LOG_FILE=logs/travel_planner.log
+
+# ============ Proxy (Optional) ============
+HTTP_PROXY=
+HTTPS_PROXY=
+
+# ============ Application ============
+DEBUG=false
+ENVIRONMENT=production
